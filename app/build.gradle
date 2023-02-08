@@ -60,8 +60,7 @@ dependencies {
 
     implementation 'com.google.protobuf:protobuf-javalite:3.18.0'
     implementation 'com.google.crypto.tink:tink-android:1.6.1'
-//    implementation project(path: ':provisioning')
-    implementation 'com.github.espressif:esp-idf-provisioning-android:lib-2.1.2'
+    implementation project(path: ':provisioning')
 
     implementation 'org.greenrobot:eventbus:3.3.1'
     implementation 'com.github.yuriy-budiyev:code-scanner:2.1.2'
