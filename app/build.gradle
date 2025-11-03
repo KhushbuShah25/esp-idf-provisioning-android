@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'maven-publish'
 
 def getGitHash = { ->
     def stdout = new ByteArrayOutputStream()
