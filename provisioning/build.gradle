@@ -92,7 +92,6 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.KhushbuShah25'
             artifactId = 'esp-idf-provisioning-android'
-            version = '1.0.1'
 
             afterEvaluate {
                 from components.release
